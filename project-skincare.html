@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Detail | Smart Skincare Application</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Dea Yuliani Sabrina</h1>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="project-section">
+      <div class="project-card">
+        <h3 class="project-title">Smart Skincare Application <span class="project-year">(April 2025-July 2025)</span></h3>
+        <p class="project-origin">Scientific Writing Project — Gunadarma University</p>
+
+        <!-- Gambar Project -->
+        <div class="project-image">
+          <img src="img/p2.JPG" alt="Smart Skincare Application Screenshot" />
+        </div>
+
+        <!-- Deskripsi -->
+        <p class="project-desc">
+          A machine learning–based application that uses a Convolutional Neural Network (CNN) model to classify seven types of facial skin problems from images. The system also provides personalized skincare product recommendations using a
+          content-based filtering approach, integrated with a simple and user-friendly Streamlit interface.
+        </p>
+
+        <!-- Dataset -->
+        <div class="project-dataset">
+          <h4>📊 Datasets</h4>
+          <ul>
+            <li><strong>Facial Skin Problem Dataset:</strong> 2,450 images collected through web scraping from Google Images, Pinterest, and medical sites like DermNet.</li>
+            <li> <strong>Skincare Product Dataset:</strong> Over 700 skincare products scraped from Sociolla and BeautyHaul.</li>
+          </ul>
+        </div>
+
+        <!-- Tools -->
+        <div class="project-tools">
+          <h4>🛠️ Tools & Libraries</h4>
+          <div class="tools">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" title="Pandas" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" title="TensorFlow" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" title="NumPy" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" title="OpenCV" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" title="Streamlit" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecolab/googlecolab-original.svg" title="Google Colab" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" title="Matplotlib" />
+          </div>
+        </div>
+
+        <!-- Tahapan -->
+        <div class="project-steps">
+          <h4>🧩 Project Stages</h4>
+          <ul>
+            <li>Performed web scraping for image and product data collection.</li>
+            <li>Conducted data preprocessing: augmentation, resizing, and normalization.</li>
+            <li>Built and trained CNN model for classifying seven facial skin problem categories.</li>
+            <li>Evaluated model using confusion matrix and accuracy score.</li>
+            <li>Developed content-based product recommendation system based on classification results.</li>
+            <li>Implemented interactive Streamlit interface to display classification and recommendations.</li>
+          </ul>
+        </div>
+
+        <!-- Evaluasi -->
+        <div class="project-results">
+          <h4>🎯 Results </h4>
+          <ul>
+            <li>The CNN model was trained to recognize seven categories of facial skin problems with stable performance.</li>
+            <li>Can detect 7 skin problems and provide product recommendations</li>
+            <li>Achieved Training Accuracy 93.97%, Validation Accuracy 80.20%, and Test Accuracy 79.76%.</li>
+            <li>Average model performance: Precision 0.82, Recall 0.81, and F1-Score 0.81.</li>
+            <li>Best performing categories: Signs of Aging (F1 = 0.94) and Sensitive or Irritated Skin (F1 = 0.89).</li>
+            <li>Lowest performing category: Dry or Dehydrated Skin (F1 = 0.59).</li>
+            <li>Overall, the model demonstrated good generalization with no significant overfitting.</li>
+          </ul>
+        </div>
+
+        <!-- Link -->
+        <p class="project-link">🌐 <a href="https://skincarepintar.streamlit.app/" target="_blank">Smart Skincare Application (Streamlit)</a></p>
+        <a href="projects.html" class="btn back-btn">← Back to Projects</a>
+      </div>
+    </section>
+
+    
+
+    <footer>
+      <p>&copy; 2025 Dea Yuliani Sabrina. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

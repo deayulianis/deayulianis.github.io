@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Dea Yuliani Sabrina</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Dea Yuliani Sabrina</h1>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero fade-in">
+      <div class="container">
+        <h2>Hello, Everyone👋</h2>
+        <img src="img/myfoto.png" alt="Dea Yuliani Sabrina" class="profile-img" />
+        <p>Data Scientist | Data Analyst | Software Engineer Enthusiast</p>
+        <a href="#projects" class="btn">View My Projects</a>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="about-section fade-in">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I’m <strong>Dea Yuliani Sabrina</strong>, a 7th-semester Informatics student at Gunadarma University with a strong interest in
+          <strong>Data Science, Data Analysis, and Software Development.Science, Data Analysis, and Software Development.</strong> I love exploring data to uncover insights that drive better decisions and turning ideas into digital
+          solutions that make a positive impact. I’ve participated in <strong>Coding Camp 2025 (Machine Learning specialization)</strong> and have been actively involved in campus organizations as well as working as a laboratory assistant.
+          Some of my projects include <strong>sentiment analysis,</strong> a <strong>movie recommendation</strong> system using machine learning, <strong>modular ETL pipeline</strong> with Python. I also have experience in
+          <strong>creating SRS documents, modeling diagrams, and UI/UX using Figma</strong>. I’m a detail-oriented, adaptable, and enthusiastic learner who enjoys working collaboratively.
+        </p>
+        <div class="about-extra">
+          <div>
+            <h3>🎓 Education</h3>
+            <!-- GUNDAR -->
+            <p>
+              <img src="img/gundar.jpeg" alt="Gunadarma University Logo" class="edu-logo" />
+              <strong>Bachelor of Informatics</strong>, <strong>Gunadarma University (2022 – Present)</strong>
+            </p>
+            <ul>
+              <li><strong>GPA:</strong> 3.87 / 4.00</li>
+              <li>
+                Completed virtual self-paced courses from <strong>LePKom Mandiri Gunadarma University</strong>
+                (certificate in process), covering:
+                <em>Fundamental DBMS, Fundamental Web, SQL Server for Beginners, Oracle for Beginners</em>.
+              </li>
+              <li>
+                <strong>Relevant Coursework:</strong> Statistics I & II, Introduction to Data Science, Big Data Computing, Artificial Intelligence Technology, Database Systems I, Operations Research, Algorithm and Programming I–III, Data
+                Structures, Object-Oriented Programming, Web Programming, Software Engineering I–II, and Software Project Development.
+              </li>
+            </ul>
+            <br />
+
+            <!-- DBS -->
+            <h4>
+              <img src="img/dbs.jpeg" alt="DBS Foundation Logo" class="edu-logo" />
+              Machine Learning Cohort — Coding Camp Powered by DBS Foundation (2025)
+            </h4>
+            <ul>
+              <li><strong>Learning Progress:</strong> 100%</li>
+              <li>
+                <strong>Project:</strong> <em>WasteWise AI</em> - A web-based application for automatic waste classification. Developed collaboratively by a team of 5 members (2 Fullstack Developers and 3 Machine Learning Engineers). I
+                contributed to building and optimizing the <strong>Machine Learning model</strong> for waste classification.
+              </li>
+              <li><strong>Courses Covered:</strong> Python, SQL, Data Visualization, Machine Learning, Deep Learning.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>💼 Experience</h3>
+            <!-- LePKom Gunadarma -->
+            <div class="experience-item">
+              <img src="img/lepkom.jpeg" alt="Gunadarma Logo" class="logo-left" />
+              <div class="exp-text">
+                <strong>Assistant, Computer Laboratory — LePKom Gunadarma University</strong><br />
+                <em>October 2025 – Present</em><br />
+                Assisted instructors in checking assignments, managing lab sessions, and supporting students with technical issues in SQL, and C#,.
+              </div>
+            </div>
+
+            <!-- Basic Physics Laboratory -->
+            <div class="experience-item">
+              <img src="img/fisdas.jpeg" alt="Gunadarma Logo" class="logo-left" />
+              <div class="exp-text">
+                <strong>Laboratory Assistant — Basic Physics Laboratory, Gunadarma University</strong><br />
+                <em>September 2024 – September 2024</em><br />
+                Guided students through experiments, ensured lab safety, and evaluated reports as part of the assessment process.
+              </div>
+            </div>
+
+            <!-- BEM FTI -->
+            <div class="experience-item">
+              <img src="img/bem.jpeg" alt="BEM FTI Logo" class="logo-left" />
+              <div class="exp-text">
+                <strong>Staff, Research and Study Bureau — BEM FTI Gunadarma University</strong><br />
+                <em>October 2023 – September 2024</em><br />
+                Collected and analyzed student survey data, created reports and infographics, and contributed to data-driven program evaluations.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="projects-section fade-in">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project-card">
+            <img src="img/p1.png" alt="Restaurant Website" />
+            <h3>🍽️ Restaurant Management Website for Client “Ibu Tami”</h3>
+            <p>System Analyst who designs system flows, analyzes requirements, and creates technical documentation for Restaurant websites.</p>
+            <a href="project-restaurants.html" class="btn">View Details</a>
+          </div>
+
+          <div class="project-card">
+            <img src="img/p2.JPG" alt="Smart Skincare Application" />
+            <h3>🧴 Smart Skincare Application</h3>
+            <p>A CNN-based Machine Learning application that classifies facial skin problems and recommends skincare products using content-based filtering.</p>
+            <a href="project-skincare.html" class="btn">View Details</a>
+          </div>
+
+          <div class="project-card">
+            <img src="img/P3.JPG" alt="WasteWise AI" />
+            <h3>🌱 WasteWise AI</h3>
+            <p>A CNN-based model that classifies organic, inorganic, and hazardous waste, developed as part of a collaborative web project.</p>
+            <a href="project-w.html" class="btn">View Details</a>
+          </div>
+        </div>
+
+        <!-- Tombol di tengah -->
+        <div class="view-all-container">
+          <a href="projects.html" class="btn view-all-btn">View All Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="skills-section fade-in">
+      <div class="container">
+        <h2 class="section-title">Skills & Tools</h2>
+
+        <div class="skills-grid">
+          <!-- Hard Skills -->
+          <div class="skill-card">
+            <h3>💻 Hard Skills</h3>
+            <ul>
+              <li>Data Analysis</li>
+              <li>Machine Learning</li>
+              <li>Statistical Modeling</li>
+              <li>Software Development (Frontend)</li>
+              <li>Database Management (SQL & NoSQL)</li>
+            </ul>
+          </div>
+
+          <!-- Tools with Icons -->
+          <div class="skill-card">
+            <h3>🧰 Tools</h3>
+            <div class="tools-icons">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" />
+              <img src="img/HTML.png" alt="HTML" title="HTML" class="tool-icon" />
+              <img src="img/CSS.png" alt="CSS" title="CSS" class="tool-icon" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" title="JavaScript" />
+              <img src="img/sql server.png" alt="SSMS" title="SSMS" class="tool-icon" />
+              <img src="img/vscode.jpg" alt="VsCode" title="VsCode" class="tool-icon" />
+              <img src="img/C1.png" alt="C#" title="C#" class="tool-icon" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" title="TensorFlow" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" title="MySQL" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" title="PostgreSQL" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/oracle/oracle-original.svg" title="Oracle" />
+              <img src="img/ssms.png" alt="SQL Server" title="SQL Server" class="tool-icon" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title="Figma" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" title="Canva" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" title="Streamlit" />
+              <img src="img/tableau.png" alt="Tableau" title="Tableau" class="tool-icon" />
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecolab/googlecolab-original.svg" title="Google Colab" />
+              <img src="img/draw.png" alt="draw.io" title="Draw.io" class="tool-icon" />
+              <img src="img/MicrosoftWord.jpg" alt="Microsoft Word" title="Microsoft Word" class="tool-icon" />
+              <img src="img/excel.jpg" alt="Microsoft Excel" title="Microsoft Excel" class="tool-icon" />
+              <img src="img/PPT.jpg" alt="Microsoft Power Point" title="Microsoft Power Point" class="tool-icon" />
+            </div>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="skill-card">
+            <h3>🌟 Soft Skills</h3>
+            <ul>
+              <li>Critical Thinking</li>
+              <li>Analytical Thinking</li>
+              <li>LeaderShip</li>
+              <li>Problem Solving</li>
+              <li>Team Collaboration</li>
+              <li>Time Management</li>
+              <li>Communication & Presentation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificates" class="cert-section fade-in">
+      <h2>Certificates</h2>
+
+      <div class="cert-grid">
+        <!-- Campus Certificate Preview -->
+        <div class="cert-card">
+          <img src="img/certificates/1.jpg" class="cert-img" alt="Campus Certificate" />
+          <h3>Training Certificate</h3>
+          <p class="cert-preview">Fundamental Web Programming</p>
+          <p class="cert-desc">Training on the fundamentals of web programming, covering Web Basics, Go Programming, Java J2EE, JSP, C#, .NET Framework, and ASP.NET.</p>
+          <p class="cert-desc">Gunadarma University – August 2023</p>
+          <a href="https://drive.google.com/file/d/1_ulWME9kSk0EzYbAz0LmzfmOhhGzIAnO/view?usp=sharing" target="_blank" class="btn">View Certificate →</a>
+        </div>
+
+        <!-- Bootcamp Certificate Preview -->
+        <div class="cert-card">
+          <img src="img/certificates/2.jpg" class="cert-img" alt="Bootcamp Certificate" />
+          <h3>DBS Coding Camp 2025</h3>
+          <p class="cert-preview">Machine Learning Engineer</p>
+          <p class="cert-desc">
+            Completed an intensive and highly selective training program powered by DBS Foundation and Dicoding, focusing on machine learning fundamentals, model development, deployment skills, and professional readiness.
+          </p>
+          <p class="cert-desc">Program Period: February 10, 2025 – July 16, 2025</p>
+          <a href="https://drive.google.com/file/d/1RcNvYrJKo7lOk7q0Ygll-F-6nm23g3Cg/view?usp=sharing" target="_blank" class="btn">View Certificate →</a>
+        </div>
+      </div>
+
+      <div class="center-btn">
+        <a href="certificates.html" class="btn">View All Certificates →</a>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section fade-in">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Let’s connect or collaborate! 👇</p>
+        <ul class="contact-info">
+          <li>Email: <a href="mailto:deayulianis788@gmail.com">deayulianis788@gmail.com</a></li>
+          <li>LinkedIn: <a href="https://linkedin.com/in/deayulianis" target="_blank">linkedin.com/in/deayulianis</a></li>
+          <li>GitHub: <a href="https://github.com/deayulianis" target="_blank">https://github.com/deayulianis</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Dea Yuliani Sabrina | Built with 💙</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>

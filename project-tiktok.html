@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Detail | Sentiment Analysis of TikTok Reviews Using Lexicon-Based and Machine Learning</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Dea Yuliani Sabrina</h1>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="project-section">
+      <div class="project-card">
+        <h3 class="project-title">Sentiment Analysis of TikTok Reviews Using Lexicon-Based and Machine Learning<span class="project-year">(April 2025)</span></h3>
+        <p class="project-origin">Deep Learning Project — Coding Camp powered by DBS Foundation 2025</p>
+
+        <!-- Gambar Project -->
+        <div class="project-image">
+          <img src="img/p7.png" alt="Sentiment Analysis of TikTok Reviews Using Lexicon-Based and Machine Learning" />
+        </div>
+
+        <!-- Deskripsi -->
+        <p class="project-desc">
+          This project analyzes <strong>10,000 TikTok app reviews from the Google Play Store</strong> to identify user sentiment. The process includes text preprocessing, lexicon-based sentiment scoring, word visualization, and exploration
+          of positive–negative opinions using WordCloud and Treemap.
+        </p>
+
+        <!-- Dataset -->
+        <div class="project-dataset">
+          <h4>📊 Datasets</h4>
+          <ul>
+            <li>Scrapping Google Play Store Review Dataset (10,000 records)</li>
+          </ul>
+        </div>
+
+        <!-- Tools -->
+        <div class="project-tools">
+          <h4>🛠️ Tools & Libraries</h4>
+          <div class="tools">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecolab/googlecolab-original.svg" title="Google Colab" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" title="Pandas" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" title="NumPy" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" title="Matplotlib" />
+            <img src="img/seaborn.png" alt="Seaborn" title="Seaborn" class="tool-icon" />
+            <img src="img/Scikit-Learn.png" alt="Scikit-Learn" title="Scikit-Learn" class="tool-icon" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" title="Streamlit" />
+          </div>
+        </div>
+
+        <!-- Tahapan -->
+        <div class="project-steps">
+          <h4>🧩 Project Stages</h4>
+          <ul>
+            <li><strong>Data Loading & Cleaning :</strong></li>
+            <ol>
+              ➡️ Removed missing values.
+            </ol>
+            <ol>
+              ➡️ Standardized columns such as
+              <strong>reviewCreatedVersion</strong>
+              and
+              <strong>appVersion.</strong>
+            </ol>
+            <ol>
+              ➡️ Handled the limited
+              <strong>replyContent</strong>
+              values.
+            </ol>
+            <li><strong>Text Preprocessing :</strong></li>
+            <ol>
+              ➡️ Cleaning (remove numbers, mentions, RT, URL, punctuation)
+            </ol>
+            <ol>
+              ➡️ Case folding
+            </ol>
+            <ol>
+              ➡️ Slang normalization (e.g., ga → tidak, bgt → banget)
+            </ol>
+            <ol>
+              ➡️ Tokenizing
+            </ol>
+            <ol>
+              ➡️ Stopword removal (Indonesian + English)
+            </ol>
+            <ol>
+              ➡️ Stemming (Sastrawi)
+            </ol>
+            <ol>
+              ➡️ Rebuild the cleaned sentence
+            </ol>
+            <li><strong>Sentiment Labeling (Lexicon-Based): </strong></li>
+            <ol>
+              ➡️ Used positive & negative word dictionaries (CSV from GitHub)
+            </ol>
+            <ol>
+              ➡️ Scoring based on word occurrence weights.
+            </ol>
+            <ol>
+              ➡️ Ensuring all numerical fields are valid.
+            </ol>
+            <ol>
+              ➡️ Three sentiment labels : Positive, Negative, Neutraal
+            </ol>
+            <ol>
+              ➡️ Result Distribution : Positive: 7,211 Negative: 2,340 Neutral: 449
+            </ol>
+            <li><strong>Visualization :</strong></li>
+            <ol>
+              ➡️
+              <strong>Sentiment Distribution Pie Chart :</strong>
+              Shows the dominance of positive sentiment in TikTok reviews.
+            </ol>
+            <ol>
+              ➡️
+              <strong>WordClouds : </strong>
+              All reviews, Positive-only, Negative-only, and Neutral-only.
+            </ol>
+            <ol>
+              ➡️
+              <strong>Treemap of Top Words :</strong>
+              Highlights the most frequent words in each sentiment category.
+            </ol>
+            <ol>
+              ➡️
+              <strong>Bar Charts Top 15 most common words from :</strong>
+              All comments, Positive comments, Negative comments, Neutral comments.
+            </ol>
+            <li><strong>Business Insights :</strong></li>
+            <ol>
+              ➡️ Peak usage occurs during commuting hours (morning & early evening).
+            </ol>
+            <ol>
+              ➡️ Summer & fall show the highest demand.
+            </ol>
+            <ol>
+              ➡️ Bad weather significantly reduces usage.
+            </ol>
+          </ul>
+        </div>
+
+        <!-- Evaluasi -->
+        <div class="project-results">
+          <h4>🎯 Results</h4>
+          <ul>
+            <li>The majority of reviews are positive : <strong>Most users praise TikTok’s features, experience, and inspirational content.</strong></li>
+            <li>Negative comments are mainly about : <strong>Bugs, App lag, Login issues, Failed updates.</strong></li>
+            <li>Most frequent words include : <strong>“tiktok”, “bagus”, “komentar”, “update”, “blokir”, “donlod”.</strong></li>
+            <li>The complete visualizations and lexicon-based model successfully classify sentiments, providing valuable insights into TikTok user experience and common issues.</li>
+          </ul>
+        </div>
+
+        <!-- Link -->
+        <p class="project-link">🌐 <a href="https://github.com/deayulianis/Analisis-Sentimen-Komentar-Apliksi-TikTok-Di-Google-Play" target="_blank">Sentiment Analysis of TikTok Reviews Using Lexicon-Based and Machine Learning (GitHub)</a></p>
+        <a href="projects.html" class="btn back-btn">← Back to Projects</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Dea Yuliani Sabrina. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

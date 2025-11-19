@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Detail | Bike Sharing Using Exploratory Data Analysis (EDA)</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Dea Yuliani Sabrina</h1>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="project-section">
+      <div class="project-card">
+        <h3 class="project-title">Bike Sharing Using Exploratory Data Analysis (EDA)<span class="project-year">(March 2025)</span></h3>
+        <p class="project-origin"> Data Analysis With Python Project — Coding Camp powered by DBS Foundation 2025</p>
+
+        <!-- Gambar Project -->
+        <div class="project-image">
+          <img src="img/p8.png" alt="Bike Sharing Using Exploratory Data Analysis (EDA)" />
+        </div>
+
+        <!-- Deskripsi -->
+        <p class="project-desc">
+          Understanding user behavior is essential for optimizing smart-city transportation systems. In this project, I analyzed the Bike Sharing Dataset to uncover patterns in hourly and daily bike demand. Using data
+          <strong>wrangling, cleaning, and exploratory data analysis (EDA)</strong>, this project answers key business questions such as:
+          <strong>How does bike usage vary throughout the day? How do weather and seasonal factors influence demand?</strong>
+        </p>
+
+        <!-- Dataset -->
+        <div class="project-dataset">
+          <h4>📊 Datasets</h4>
+          <ul>
+            <li>The dataset comes from Kaggle and contains 2 files, namely the <strong>day.csv file</strong> and the <strong>hour.csv file.</strong></li>
+          </ul>
+        </div>
+
+        <!-- Tools -->
+        <div class="project-tools">
+          <h4>🛠️ Tools & Libraries</h4>
+          <div class="tools">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecolab/googlecolab-original.svg" title="Google Colab" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" title="Pandas" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" title="NumPy" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" title="Matplotlib" />
+            <img src="img/seaborn.png" alt="Seaborn" title="Seaborn" class="tool-icon" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg" title="Streamlit" />
+          </div>
+        </div>
+
+        <!-- Tahapan -->
+        <div class="project-steps">
+          <h4>🧩 Project Stages</h4>
+          <ul>
+            <li><strong>Data Gathering :</strong> Importing two datasets containing hourly and daily rental information.</li>
+            <li><strong>Data Assessment :</strong> Checking data types, missing values, duplicates, and summary statistics.</li>
+            <li><strong>Data Cleaning : </strong></li>
+            <ol>
+              ➡️ Converting date column
+              <strong>(dteday)</strong>
+              into datetime format.
+            </ol>
+            <ol>
+              ➡️ Removing unnecessary columns
+              <strong>(instant).</strong>
+            </ol>
+            <ol>
+              ➡️ Ensuring all numerical fields are valid.
+            </ol>
+            <li><strong>Exploratory Data Analysis :</strong></li>
+            <ol>
+              <strong>(Key insights explored)</strong>
+            </ol>
+            <ol>
+              ➡️ Bike usage patterns by hour.
+            </ol>
+            <ol>
+              ➡️ Trends across months & seasons.
+            </ol>
+            <ol>
+              ➡️ Influence of temperature, humidity, and weather.
+            </ol>
+            <ol>
+              ➡️ Differences between casual vs registered users.
+            </ol>
+            <li><strong>Business Insights :</strong></li>
+            <ol>
+              ➡️ Peak usage occurs during commuting hours (morning & early evening).
+            </ol>
+            <ol>
+              ➡️ Summer & fall show the highest demand.
+            </ol>
+            <ol>
+              ➡️ Bad weather significantly reduces usage.
+            </ol>
+            <li><strong>visualizations with Streamlit : </strong></li>
+            <ol>
+              Visualizations shown
+            </ol>
+            <ol>
+              ➡️ Initial Data
+            </ol>
+            <ol>
+              ➡️ Hourly Loans Chart
+            </ol>
+            <ol>
+              ➡️ Seasonal Trend Chart
+            </ol>
+          </ul>
+        </div>
+
+        <!-- Evaluasi -->
+        <div class="project-results">
+          <h4>🎯 Results</h4>
+          <ul>
+            <li>Visualizations show a significant increase in bike usage during <strong>07:00–09:00</strong> and <strong>17:00–19:00</strong> , aligned with commuting hours.</li>
+            <li>The lowest usage occurs between <strong>00:00–05:00</strong>, when city activity is minimal.</li>
+            <li>The highest rental demand appears in Fall, followed by <strong>Summer.</strong></li>
+            <li>The lowest demand occurs in <strong>Spring and Winter,</strong> likely influenced by colder temperatures and unfavorable weather.</li>
+            <li>Weather factors particularly warm temperature and clear skies strongly correlate with higher bike rental demand.</li>
+          </ul>
+        </div>
+
+        <!-- Link -->
+        <p class="project-link">🌐 <a href="https://deayulianisabrina.streamlit.app/" target="_blank">Bike Sharing Using Exploratory Data Analysis (Streamlit)</a></p>
+        <p class="project-link">🌐 <a href="https://github.com/deayulianis/Proyek-Analisis-Data-Peminjaman-Sepeda" target="_blank">Bike Sharing Using Exploratory Data Analysis (GitHub)</a></p>
+        <a href="projects.html" class="btn back-btn">← Back to Projects</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Dea Yuliani Sabrina. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

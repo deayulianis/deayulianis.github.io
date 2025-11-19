@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Detail | WisteWise</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Dea Yuliani Sabrina</h1>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="project-section">
+      <div class="project-card">
+        <h3 class="project-title">WasteWise AI <span class="project-year">(April 2025 – June 2025)</span></h3>
+        <p class="project-origin">Capstone Project — Coding Camp powered by DBS Foundation 2025</p>
+
+        <!-- Gambar Project -->
+        <div class="project-image">
+          <img src="img/p3.JPG" alt="Smart WasteWise AI Screenshot" />
+        </div>
+
+        <!-- Deskripsi -->
+        <p class="project-desc">
+          A collaborative capstone project from <strong>The Coding Camp powered by DBS Foundation 2025</strong>, integrating Front-End, Back-End, and Machine Learning Development. The system classifies 3 types of waste: organic, inorganic,
+          and hazardous (B3) .Using an image classification model built with Convolutional Neural Network (CNN). The trained model was later integrated into the team's WasteWise AI website to provide automated waste detection.
+        </p>
+
+        <!-- Dataset -->
+        <div class="project-dataset">
+          <h4>📊 Datasets</h4>
+          <ul>
+            <li>Three waste categories (organic, inorganic, B3) collected from various open image sources and manual curation.</li>
+            <li>Approximately 7,182 images used for training, validation, and testing.</li>
+          </ul>
+        </div>
+
+        <!-- Tools -->
+        <div class="project-tools">
+          <h4>🛠️Tools & Libraries</h4>
+          <div class="tools">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" title="Pandas" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" title="TensorFlow" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" title="NumPy" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecolab/googlecolab-original.svg" title="Google Colab" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" title="Matplotlib" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" title="Keras" />
+          </div>
+        </div>
+
+        <!-- Tahapan -->
+        <div class="project-steps">
+          <h4>🧩 Project Stages</h4>
+          <ul>
+            <li>Data collection and cleaning.</li>
+            <li>Image preprocessing <strong>(resizing, augmentation, normalization).</strong></li>
+            <li>Building and training the CNN model for three-class classification.</li>
+            <li>Model evaluation using <strong>matrix and accuracy metrics.</strong></li>
+            <li>Saving the trained model <strong>(.h5)</strong> for website integration.</li>
+          </ul>
+        </div>
+
+        <!-- Evaluasi -->
+        <div class="project-results">
+          <h4>🎯 Results </h4>
+          <ul>
+            <li>Can detect 3 types of waste and 15 categories of waste</li>
+            <li>Achieved <strong>Training Accuracy of 100%</strong> and <strong>Validation Accuracy of 87.68%.</strong></li>
+            <li><strong>Average F1-Score: 0.83</strong>, showing balanced performance across all classes.</li>
+            <li>The trained model was successfully integrated into the WasteWise website for automatic waste image classification.</li>
+          </ul>
+        </div>
+
+        <!-- Link -->
+        <p class="project-link">🌐 <a href="https://github.com/deayulianis/Models-WisteWise" target="_blank">WisteWise (Github)</a></p>
+        <a href="projects.html" class="btn back-btn">← Back to Projects</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Dea Yuliani Sabrina. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

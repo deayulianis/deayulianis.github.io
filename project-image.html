@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Detail | Image Classification Using Convolutional Neural Network (CNN)</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <h1 class="logo">Dea Yuliani Sabrina</h1>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="project-section">
+      <div class="project-card">
+        <h3 class="project-title">Image Classification Using Convolutional Neural Network<span class="project-year">(May 2025)</span></h3>
+        <p class="project-origin">Deep Learning 2 Project — Coding Camp powered by DBS Foundation 2025</p>
+
+        <!-- Gambar Project -->
+        <div class="project-image">
+          <img src="img/p6.png" alt="Image Classification Using Convolutional Neural Network" />
+        </div>
+
+        <!-- Deskripsi -->
+        <p class="project-desc">
+          This project focuses on building a <strong>Convolutional Neural Network (CNN)</strong> model to classify images into six landscape categories: <strong>buildings, forest, glacier, mountain, sea, and street.</strong> The dataset
+          used is the Intel Image Classification Dataset from Kaggle. The project covers the full pipeline: data preparation, augmentation, CNN modeling from scratch, training, evaluation, and exporting the model to
+          <strong>TensorFlow Lite</strong> and <strong>TensorFlowJS</strong> for mobile and web deployment.
+        </p>
+
+        <!-- Dataset -->
+        <div class="project-dataset">
+          <h4>📊 Datasets</h4>
+          <ul>
+            <li>The dataset comes from Kaggle - Intel Image Classification Dataset</li>
+            <li>Contains 25,000+ images across 6 classes.</li>
+          </ul>
+        </div>
+
+        <!-- Tools -->
+        <div class="project-tools">
+          <h4>🛠️ Tools & Libraries</h4>
+          <div class="tools">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecolab/googlecolab-original.svg" title="Google Colab" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" title="Python" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" title="Matplotlib" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" title="TensorFlow" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" title="OpenCV" />
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg" title="Keras" />
+            <img src="img/seaborn.png" alt="Seaborn" title="Seaborn" class="tool-icon" />
+            <img src="img/Scikit-Learn.png" alt="Scikit-Learn" title="Scikit-Learn" class="tool-icon" />
+          </div>
+        </div>
+
+        <!-- Tahapan -->
+        <div class="project-steps">
+          <h4>🧩 Project Stages</h4>
+          <ul>
+            <li><strong>Data Preparation :</strong></li>
+            <ol>➡️ Download dataset using Kaggle API.</ol>
+            <ol>➡️ Merge training + testing folders into one directory.</ol>
+            <ol>➡️ Avoid filename collisions.</ol>
+            <ol>➡️ Split into train / validation / test (70/15/15).</ol>
+            <li><strong>Data Preprocessing:</strong></li>
+            <ol>➡️ Resize images to 150×150 px.</ol>
+            <ol>➡️ Normalize pixels</ol>
+            <ol>➡️ Simple augmentation: rotation, rescaling</ol>
+            <li><strong>CNN Modeling :</strong></li>
+            <ol>
+              Architecture:
+            </ol>
+            <ol>
+              ➡️ 4 blocks of Conv2D + MaxPooling.
+            </ol>
+            <ol>
+              ➡️ Flatten → Dense → Dropout.
+            </ol>
+            <ol>➡️ Softmax output for 6 classes.</ol>
+            <ol>Loss : Categorical Crossentropy</ol>
+            <ol>Optimizer : Adam</ol>
+            <li><strong>Training :</strong></li>
+            <ol>
+              ➡️ 15 epochs.
+            </ol>
+            <ol>
+              ➡️ Batch size 32.
+            </ol>
+            <ol>
+              ➡️ Real-time monitoring on validation accuracy.
+            </ol>
+            <li><strong>Evaluation : </strong></li>
+            <ol>
+              ➡️Train Accuracy : 94.87%.
+            </ol>
+            <ol>
+              ➡️Test Accuracy : 85.01%.
+            </ol>
+            <ol>
+              ➡️Includes accuracy/loss curves, confusion matrix, classification report.
+            </ol>
+            <li><strong>Model Export : </strong></li>
+            <ol>Model exported into :</ol>
+            <ol>➡️ SavedModel.</ol>
+            <ol>➡️ TensorFlow Lite (.tflite) for mobile usage.</ol>
+            <ol>➡️ TensorFlowJS for web deployment.</ol>
+          </ul>
+        </div>
+
+        <!-- Evaluasi -->
+        <div class="project-results">
+          <h4>🎯 Results</h4>
+          <ul>
+            <li><strong>Performance</strong></li>
+            <ol>➡️ CNN model achieved 85% accuracy on the test set.</ol>
+            <ol>➡️ Best-performing class: forest.</ol>
+            <ol>➡️ Most challenging pairs: glacier vs mountain, street vs buildings.</ol>
+            <li><strong>Visualization Insights</strong></li>
+            <ol>➡️ Stable training without significant overfitting.</ol>
+            <ol>➡️ Confusion matrix reveals class similarity as main source of error.</ol>
+            <li>Deployment Ready</li>
+            <ol>➡️ Successfully exported to TFLite & TFJS</ol>
+            <ol>➡️ Ready for integration with: Mobile apps, Web apps, Edge-device inference</ol>
+          </ul>
+        </div>
+
+        <!-- Link -->
+        <p class="project-link">🌐 <a href="https://github.com/deayulianis/Proyek-Klasifikasi-Gambar" target="_blank">Image Classification Using Convolutional Neural Network (GitHub)</a></p>
+        <a href="projects.html" class="btn back-btn">← Back to Projects</a>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Dea Yuliani Sabrina. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
